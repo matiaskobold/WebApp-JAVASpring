@@ -5,6 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
+
+  
   <properties>
   <spring.version>5.1.5.RELEASE</spring.version>
   <hibernate.version>5.4.1.Final</hibernate.version>
@@ -53,7 +55,7 @@
   	<dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.14</version>
+    <version>8.0.21</version>
     <scope>runtime</scope>
 	</dependency>
   	
@@ -80,8 +82,9 @@
  
   	
   </dependencies>
-  
+
   <build>
+  	
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
